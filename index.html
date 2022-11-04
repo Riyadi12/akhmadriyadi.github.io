@@ -18,6 +18,16 @@
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <!-- Zoom Gambar -->
+    <script type="text/javascript" src="zoomooz/lib/jquery-1.4.4.js"></script>
+    <script type="text/javascript" src="zoomooz/lib/sylvester.js"></script>
+    <script type="text/javascript" src="zoomooz/js/purecssmatrix.js"></script>
+    <script type="text/javascript" src="zoomooz/js/jquery.animtrans.js"></script>
+    <script type="text/javascript" src="zoomooz/js/jquery.zoomooz.js"></script>
+
+    <!-- Zoom Gambar -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
     <!-- Akhir My Css -->
@@ -27,7 +37,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Blog Profile</a>
+        <a class="navbar-brand" href="#">Web Profile</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -154,6 +164,7 @@
         ></path>
       </svg>
     </section>
+
     <!-- Akhir Project -->
 
     <!-- Contact -->
@@ -204,8 +215,11 @@
 
     <!-- Footer -->
     <footer class="bg-primary text-white text-center pb-3">
-      <p><i class="bi bi-instagram"></i> <a href="https://www.instagram.com/akhmad_ryadii/" class="text-white fw-bold">Akhmad Riyadi</a></p>
+      <a href="https://www.instagram.com/akhmad_ryadii/" class="bi bi-instagram text-white"></a>
+      <a href="https://wa.link/8kn05j" class="bi bi-whatsapp text-white"></a>
+      <a href="https://t.me/ryadi12" class="bi bi-telegram text-white"></a>
     </footer>
+
     <!-- Akhir Footer -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -229,7 +243,7 @@
 
     <script>
       gsap.registerPlugin(TextPlugin);
-      gsap.to(".lead", { duration: 2, delay: 1.5, text: "SAP ABAP | Full Stack Developer" });
+      gsap.to(".lead", { duration: 2, delay: 1.5, text: "SAP ABAP | Front End Developer" });
       gsap.from(".jumbotron img", { duration: 1, rotateY: 360, opacity: 0 });
       gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0, ease: "bounce" });
       gsap.from(".display-4", { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: "back" });
